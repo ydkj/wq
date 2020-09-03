@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/1.css">
+    <link rel="stylesheet" href="./css/2.css">
+</head>
+
+<body>
+    <div class="all">
+        <div class="imgBox">
+            <img src="./images/logo.png" class="logo">
+            <!-- <img src="./images/shouYe.jpg" class="img_slide"> -->
+        </div>
+
+        <div class="box1">
+            <div class="box1_content">
+                <p> Design case </p>
+                <div class="control">
+                    <button onclick="bhcolor(1)" type="button" id="1" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">原木</button>
+                    <button onclick="bhcolor(2)" type="button" id="2" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">现代美式</button>
+                    <button onclick="bhcolor(3)" type="button" id="3" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">简约混搭</button>
+                    <button onclick="bhcolor(4)" type="button" id="4" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">欧式混搭</button>
+                    <button onclick="bhcolor(5)" type="button" id="5" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">北欧小清新</button>
+                    <button onclick="bhcolor(6)" type="button" id="6" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">东南亚</button>
+                    <button onclick="bhcolor(7)" type="button" id="7" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">简美</button>
+                    <button onclick="bhcolor(8)" type="button" id="8" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">地中海</button>
+                    <button onclick="bhcolor(9)" type="button" id="9" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">日式</button>
+                </div>
+                <div id="sswitch">
+                    <div id="list">
+                        <div class="house">
+                            <div class="house_box1">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/1.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/2.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/3.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box1_house_box2">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/4.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/5.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/6.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="house">
+                            <div class="house_box1">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/1.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/2.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/3.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box1_house_box2">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/4.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/5.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/6.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="house">
+                            <div class="house_box1">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/1.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/2.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/3.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box1_house_box2">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/4.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/5.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/6.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="house">
+                            <div class="house_box1">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/1.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/2.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/3.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box1_house_box2">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/4.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/5.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/6.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="house">
+                            <div class="house_box1">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/1.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/2.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/3.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box1_house_box2">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/4.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/5.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/6.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="house">
+                            <div class="house_box1">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/1.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/2.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/3.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box1_house_box2">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/4.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/5.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/6.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="house">
+                            <div class="house_box1">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/1.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/2.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/3.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box1_house_box2">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/4.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/5.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/6.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="house">
+                            <div class="house_box1">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/1.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/2.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/3.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box1_house_box2">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/4.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/5.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/6.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="house">
+                            <div class="house_box1">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/1.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/2.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/3.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box1_house_box2">
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/4.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/5.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                                <div class="img_group">
+                                    <a href="#">
+                                        <img src="./images/box1/6.jpg" alt="">
+                                        <p class="img_tip">桐梓林壹号130㎡ 原木风格</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="box2_content">
+                <div class="text1">
+                    <p>1991Team</p>
+                </div>
+                <div class="text2">
+                    <p>每一张图纸都是用心绘制，每一笔勾勒都是细心雕琢，点线之间，是您的信任支持我们一路向前，点滴笔墨，都是公司与客户的真情融汇。切实让客户花费一次精力，就可以获得相伴终生的温馨体验和视觉享受。</p>
+                </div>
+                <div class="house_box2">
+                    <div class="img_group2">
+                        <a href="#">
+                            <img src="./images/box2/1.jpg" alt="">
+                            <p class="img_tip2">首席设计师 陈林</p>
+                            <p class="img_tip3">Cheng Lin</p>
+                        </a>
+                    </div>
+                    <div class="img_group2">
+                        <a href="#">
+                            <img src="./images/box2/2.jpg" alt="">
+                            <p class="img_tip2">首席设计师 陈林</p>
+                            <p class="img_tip3">Cheng Lin</p>
+                        </a>
+                    </div>
+                    <div class="img_group2">
+                        <a href="#">
+                            <img src="./images/box2/3.jpg" alt="">
+                            <p class="img_tip2">首席设计师 陈林</p>
+                            <p class="img_tip3">Cheng Lin</p>
+                        </a>
+                    </div>
+                    <div class="img_group2">
+                        <a href="#">
+                            <img src="./images/box2/4.jpg" alt="">
+                            <p class="img_tip2">首席设计师 陈林</p>
+                            <p class="img_tip3">Cheng Lin</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box3">
+            <div class="box3_content">
+                <div class="box3_title">
+                    <p>Enginnering</p>
+                    <p>规范工程</p>
+                </div>
+                <div class="clear_float">
+                    <div class="picture">
+                        <img src="./images/box3/1.png" alt="">
+                    </div>
+                    <div class="inline">
+                        <p>HFT+保利梧桐语，现代美式小窝</p>
+                        <p>用纯熟的工艺打造具有生命力的作品，用真诚的服务换取客户的真心笑容。最稳妥的合作程序，最安全天然的装修材料，最时尚的设计理念...</p>
+                    </div>
+                </div>
+                <div class="news">
+                    <div class="new">
+                        <div class="black_box">精工绿钻</div>
+                        <p><a href="javascript:;">成都新房装修设计中卫生间装修都有哪些注意事项您知道吗</a></p>
+                    </div>
+                    <div class="new">
+                        <div class="black_box">精工绿钻</div>
+                        <p><a href="javascript:;">成都新房装修设计中卫生间装修都有哪些注意事项您知道吗</a></p>
+                    </div>
+                    <div class="new">
+                        <div class="black_box">精工绿钻</div>
+                        <p><a href="javascript:;">成都新房装修设计中卫生间装修都有哪些注意事项您知道吗</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tail">
+            <div class="liaison">
+                <div class="translucent">
+                    <div class="tail_content">
+                        <div class="tail_title">
+                            <p>Contact us</p>
+                            <p>联系我们</p>
+                        </div>
+                        <div class="from_father">
+                            <div class="in_form">
+                                <div>
+                                    <div class="service">
+                                        <p>申请定制服务</p>
+                                        <p>公司管理模式采用：全程管家式贴心服务！公司与您一起建立微信管理群，您和我们一起参于管理您“家”的装修，及时有效的了解您家现场的施工进度，现场情况，人员安排等！我们的服务理念：精工细作
+                                            重守承诺</p>
+                                    </div>
+                                    <form name="myform">
+                                        <div class="in_name">
+                                            <p>您的姓名</p>
+                                            <input type="text" placeholder="请输入您的名字" id="name">
+                                        </div>
+                                        <div class="in_service">
+                                            <p>您的联系方式</p>
+                                            <input type="text" placeholder="请输入您的联系方式" id="phone">
+                                        </div>
+                                        <button class="in_btn" onclick="getData()" type="button">提交信息</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="contact_in">
+                                <div>
+                                    <div class="contact">
+                                        <p>联系方式</p>
+                                    </div>
+                                    <div class="tencent_QQ">
+                                        <img src="./images/tail/qq_red.png" alt="">
+                                        <div>
+                                            <p>QQ</p>
+                                            <p>1073007761@QQ.COM</p>
+                                        </div>
+                                    </div>
+                                    <div class="phone">
+                                        <img src="./images/tail/phone.png" alt="">
+                                        <div>
+                                            <p>TELPHONE</p>
+                                            <p>028-87445879<br />18030830860（手机）</p>
+                                        </div>
+                                    </div>
+                                    <div class="address">
+                                        <img src="./images/tail/phone.png" alt="">
+                                        <div>
+                                            <p>TELPHONE</p>
+                                            <p>四川省·成都市·二环路西一段6号红星美凯龙环
+                                                球家居设计博览中心A区919-921</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more">
+                <div class="more_content">
+                    <div class="left_box">
+                        <img src="./images/logo.png" alt="">
+                        <p class="left_p1">成都宏福樘装饰有限公司是一家工程将客户的需求放在第一位的专业家居装饰公司。<br /><br />
+                            <span class="sp1">装修热线：</span><span class="sp2">028 - 87445879</span></p>
+                        <p class="left_p2">Copyright @ 成都宏福樘装饰 版权所有 蜀ICP备14021312号<br />
+                            技术支持：爱诚科技 </p>
+                    </div>
+                    <div class="middle_box">
+                        <ul>
+                            <li class="first_li"><a href=""><span>关于</span>宏福樘</a></li>
+                            <li><a href="">公司简介</a></li>
+                            <li><a href="">联系我们</a></li>
+                        </ul>
+                        <ul>
+                            <li class="first_li"><a href=""><span>规范</span>工程</a></li>
+                            <li><a href="">热装楼盘</a></li>
+                            <li><a href="">精工绿钻</a></li>
+                            <li><a href="">宏福樘工艺</a></li>
+                            <li><a href="">宏福樘材料</a></li>
+                        </ul>
+                        <ul>
+                            <li class="first_li"><a href=""><span>服务</span>流程</a></li>
+                            <li><a href="">客户服务</a></li>
+                            <li><a href="">设计服务</a></li>
+                            <li><a href="">工程服务</a></li>
+                            <li><a href="">售后服务</a></li>
+                        </ul>
+                        <ul>
+                            <li class="first_li"><a href=""><span>在线</span>服务</a></li>
+                            <li><a href="">在线订单</a></li>
+                            <li><a href="">投诉报修</a></li>
+                        </ul>
+                    </div>
+                    <div class="right_box">
+                        <img src="./images/tail/QR_code.jpg" alt="">
+                        <p>（扫一扫 更精彩）</p>
+                        <div class="follow">
+                            <p>关注我们：</p>
+                            <img src="./images/tail/微信.png" alt="">
+                            <img src="./images/tail/微博.png" alt="">
+                            <img src="./images/tail/qq.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script src="./js/tool.js"></script>
+<script src="./js/1.js"></script>
+<script>
+    var a = document.getElementById("1");
+    a.style = "border-bottom: 2px solid #a82925; color: red;";
+</script>
+
+</html>
