@@ -20,15 +20,24 @@
             <div class="box1_content">
                 <p> Design case </p>
                 <div class="control">
-                    <button onclick="bhcolor(1)" type="button" id="1" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">原木</button>
-                    <button onclick="bhcolor(2)" type="button" id="2" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">现代美式</button>
-                    <button onclick="bhcolor(3)" type="button" id="3" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">简约混搭</button>
-                    <button onclick="bhcolor(4)" type="button" id="4" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">欧式混搭</button>
-                    <button onclick="bhcolor(5)" type="button" id="5" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">北欧小清新</button>
-                    <button onclick="bhcolor(6)" type="button" id="6" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">东南亚</button>
-                    <button onclick="bhcolor(7)" type="button" id="7" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">简美</button>
-                    <button onclick="bhcolor(8)" type="button" id="8" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">地中海</button>
-                    <button onclick="bhcolor(9)" type="button" id="9" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = ''">日式</button>
+                    <button onclick="bhcolor(1)" type="button" id="1" onmouseover="this.style.color = 'red'"
+                        onmouseout="this.style.color = ''">原木</button>
+                    <button onclick="bhcolor(2)" type="button" id="2" onmouseover="this.style.color = 'red'"
+                        onmouseout="this.style.color = ''">现代美式</button>
+                    <button onclick="bhcolor(3)" type="button" id="3" onmouseover="this.style.color = 'red'"
+                        onmouseout="this.style.color = ''">简约混搭</button>
+                    <button onclick="bhcolor(4)" type="button" id="4" onmouseover="this.style.color = 'red'"
+                        onmouseout="this.style.color = ''">欧式混搭</button>
+                    <button onclick="bhcolor(5)" type="button" id="5" onmouseover="this.style.color = 'red'"
+                        onmouseout="this.style.color = ''">北欧小清新</button>
+                    <button onclick="bhcolor(6)" type="button" id="6" onmouseover="this.style.color = 'red'"
+                        onmouseout="this.style.color = ''">东南亚</button>
+                    <button onclick="bhcolor(7)" type="button" id="7" onmouseover="this.style.color = 'red'"
+                        onmouseout="this.style.color = ''">简美</button>
+                    <button onclick="bhcolor(8)" type="button" id="8" onmouseover="this.style.color = 'red'"
+                        onmouseout="this.style.color = ''">地中海</button>
+                    <button onclick="bhcolor(9)" type="button" id="9" onmouseover="this.style.color = 'red'"
+                        onmouseout="this.style.color = ''">日式</button>
                 </div>
                 <div id="sswitch">
                     <div id="list">
@@ -427,29 +436,25 @@
                     <div class="img_group2">
                         <a href="#">
                             <img src="./images/box2/1.jpg" alt="">
-                            <p class="img_tip2">首席设计师 陈林</p>
-                            <p class="img_tip3">Cheng Lin</p>
+                            <p class="img_tip2">设计总监 陈林</p>
                         </a>
                     </div>
                     <div class="img_group2">
                         <a href="#">
                             <img src="./images/box2/2.jpg" alt="">
                             <p class="img_tip2">首席设计师 陈林</p>
-                            <p class="img_tip3">Cheng Lin</p>
                         </a>
                     </div>
                     <div class="img_group2">
                         <a href="#">
                             <img src="./images/box2/3.jpg" alt="">
                             <p class="img_tip2">首席设计师 陈林</p>
-                            <p class="img_tip3">Cheng Lin</p>
                         </a>
                     </div>
                     <div class="img_group2">
                         <a href="#">
                             <img src="./images/box2/4.jpg" alt="">
                             <p class="img_tip2">首席设计师 陈林</p>
-                            <p class="img_tip3">Cheng Lin</p>
                         </a>
                     </div>
                 </div>
@@ -507,13 +512,13 @@
                                     <form name="myform">
                                         <div class="in_name">
                                             <p>您的姓名</p>
-                                            <input type="text" placeholder="请输入您的名字" id="name">
+                                            <input type="text" placeholder="请输入您的名字" id="name" autocomplete="off">
                                         </div>
                                         <div class="in_service">
                                             <p>您的联系方式</p>
-                                            <input type="text" placeholder="请输入您的联系方式" id="phone">
+                                            <input type="text" placeholder="请输入您的联系方式" id="phone" autocomplete="off">
                                         </div>
-                                        <button class="in_btn" onclick="getData()" type="button">提交信息</button>
+                                        <button class="in_btn" id="in_btn" onclick="getData()" type="button">提交信息</button>
                                     </form>
                                 </div>
                             </div>

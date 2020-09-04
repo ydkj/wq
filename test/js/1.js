@@ -5,6 +5,9 @@ var list = document.getElementById("list");
 var allHouse = document.getElementsByClassName("house");
 var control = document.getElementsByClassName("control");
 var btn = control[0].getElementsByTagName("button");
+var imgGroup = document.getElementsByClassName("img_group");
+var in_btn = document.getElementById("in_btn");
+console.log(imgGroup[0]);
 
 
 function bhcolor(a) {
@@ -24,31 +27,53 @@ function bhcolor(a) {
     }
 }
 
+function btnEvent() {
+    in_btn.onmouseover = function () {
+        this.className += " in_btn2";
+    }
+    in_btn.onmouseout = function () {
+        this.className = "in_btn";
+    }
+    in_btn.onmousedown = function () {
+        this.className += " in_btn3";
+    }
+    in_btn.onmouseup = function () {
+        this.className = "in_btn";
+    }
+}
+btnEvent();
+
 function getData() {
-    var name = myform.name.value;
-    var phone = myform.phone.value;
-    var phoneReg = /^1[3|4|5|6|7|8|9]\d{9}$/;
-    var nameReg = /^[\u4E00-\u9FA5]{2,4}$/;
-    var judgeName = function () {
-        if (nameReg.test(name)) {
-            return true;
-        } else {
-            alert("请输入正确的姓名");
+    // this.className = "in_btn";
+    btntimer;
+    var btntimer = setTimeout(function () {
+        var name = myform.name.value;
+        var phone = myform.phone.value;
+        var phoneReg = /^1[3|4|5|6|7|8|9]\d{9}$/;
+        var nameReg = /^[\u4E00-\u9FA5]{2,4}$/;
+        var judgeName = function () {
+            if (nameReg.test(name)) {
+                return true;
+            } else {
+                alert("请输入正确的姓名");
+                document.getElementById("name").value = null;
+            }
+        };
+        var judgephone = function () {
+            if (phoneReg.test(phone)) {
+                return true;
+            } else {
+                alert("请输入正确的电话号码");
+                document.getElementById("phone").value = null;
+            }
+        };
+        if (judgeName() === true && judgephone() === true) {
+            console.log(name, phone);
+            alert("提交成功！");
             document.getElementById("name").value = null;
-        }
-    }
-    var judgephone = function () {
-        if (phoneReg.test(phone)) {
-            return true;
-        } else {
-            alert("请输入正确的电话号码");
             document.getElementById("phone").value = null;
-        }
-    }
-    if(judgeName() === true && judgephone() === true){
-        console.log(name,phone);
-        alert("提交成功！");
-    }
+        };
+    },100);
 }
 
 
