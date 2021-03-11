@@ -17,7 +17,7 @@ function bhcolor(a) {
     var index = a - 1;
     bta.className = "btaTow";
     bta.style = "border-bottom: 2px solid #a82925;";
-    move(list, 10, (-sswitch.offsetWidth) * index, 5, "left",);
+    move(list, 1000, (-sswitch.offsetWidth) * index, 1, "left",);
     for (var b = 1; b <= bhcolor.length; b++) {
         if (b != a) {
             var bta1 = document.getElementById(b);
